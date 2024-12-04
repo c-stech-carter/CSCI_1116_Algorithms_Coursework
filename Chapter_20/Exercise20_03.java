@@ -4,6 +4,8 @@ Date: 12/3/2024
 
 This program is a modification of Exercise08_37.java that gives a quiz of U.S. State Capitals.
 It has been modified to display the questions in random order using ArrayList and Collections to shuffle the list.
+
+Exercise 20-3 from Intro to Java by Daniel Liang
  */
 
 import java.util.ArrayList;
