@@ -39,7 +39,7 @@ public class Exercise23_03 {
         quickSort(list, 0, list.length - 1);
     }
 
-    public static <E extends Comparable<E>> void quickSort(E[] list, int low, int high) {
+    private static <E extends Comparable<E>> void quickSort(E[] list, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(list, low, high);
             quickSort(list, low, pivotIndex - 1);
